@@ -460,6 +460,10 @@
         {
           "name": "transam_dev",
           "path": "/home/unikix/dev/transam_dev"
+        },
+        {
+          "name": "SubscriptsTest",
+          "path": "/home/unikix/dev/SubscriptsTest"
         }
       ]
     },
