@@ -476,6 +476,10 @@
         {
           "name": "🍅 FromMigrationWare",
           "path": "/home/unikix/dev/FromMigrationWare"
+        },
+        {
+          "name": "🍸 Primer",
+          "path": "/home/unikix/dev/Primer"
         }
       ]
     },
@@ -797,6 +801,7 @@
   "outline.collapseItems": "alwaysCollapse",
   "window.zoomLevel": 2,
   "settings-repository.repository": "https://github.com/msweeney1999/vscode-settings.git",
+  "settings-repository.autoSync": false,
   "files.associations": {
     ".eslintrc*.json": "jsonc",
     "**/jcl/jmvs/*": "vcobol",
@@ -814,6 +819,5 @@
     "*.aaaa": "vcobol",
     "*.mark": "vcobol",
     "*.**/jcl3/*": "vcobol"
-  },
-  "settings-repository.autoSync": false
+  }
 }
