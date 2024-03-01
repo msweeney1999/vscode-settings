@@ -611,6 +611,10 @@
         {
           "name": "mrra_transam",
           "path": "/home/mark/dev/mrra2/mrra_transam"
+        },
+        {
+          "name": "🍺 BmsBug",
+          "path": "/home/unikix/dev/BmsBug"
         }
       ]
     },
