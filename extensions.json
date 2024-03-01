@@ -1,0 +1,227 @@
+[
+    {
+        "identifier": "alefragnani.Bookmarks",
+        "version": "13.4.2",
+        "enabled": true
+    },
+    {
+        "identifier": "amazonwebservices.aws-toolkit-vscode",
+        "version": "1.96.0",
+        "enabled": false
+    },
+    {
+        "identifier": "amodio.tsl-problem-matcher",
+        "version": "0.6.2",
+        "enabled": true
+    },
+    {
+        "identifier": "arcanis.vscode-zipfs",
+        "version": "3.0.0",
+        "enabled": false
+    },
+    {
+        "identifier": "barrettotte.ibmi-languages",
+        "version": "0.6.15",
+        "enabled": false
+    },
+    {
+        "identifier": "connor4312.esbuild-problem-matchers",
+        "version": "0.0.3",
+        "enabled": true
+    },
+    {
+        "identifier": "dbaeumer.vscode-eslint",
+        "version": "2.4.2",
+        "enabled": false
+    },
+    {
+        "identifier": "eamodio.gitlens",
+        "version": "14.8.2",
+        "enabled": false
+    },
+    {
+        "identifier": "GitHub.github-vscode-theme",
+        "version": "6.3.4",
+        "enabled": true
+    },
+    {
+        "identifier": "GitHub.remotehub",
+        "version": "0.62.0",
+        "enabled": false
+    },
+    {
+        "identifier": "googlecloudtools.cloudcode",
+        "version": "2.2.0",
+        "enabled": false
+    },
+    {
+        "identifier": "halcyontechltd.code-for-ibmi",
+        "version": "1.1.1",
+        "enabled": false
+    },
+    {
+        "identifier": "halcyontechltd.vscode-ibmi-walkthroughs",
+        "version": "0.4.0",
+        "enabled": false
+    },
+    {
+        "identifier": "henoc.svgeditor",
+        "version": "2.9.0",
+        "enabled": false
+    },
+    {
+        "identifier": "Katsute.settings-repository",
+        "version": "1.0.8",
+        "enabled": true
+    },
+    {
+        "identifier": "Kelvin.vscode-sshfs",
+        "version": "1.26.1",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-azuretools.vscode-docker",
+        "version": "1.27.0",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-dotnettools.csdevkit",
+        "version": "1.2.7",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-dotnettools.csharp",
+        "version": "2.15.30",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-dotnettools.vscode-dotnet-runtime",
+        "version": "2.0.0",
+        "enabled": true
+    },
+    {
+        "identifier": "ms-dotnettools.vscodeintellicode-csharp",
+        "version": "0.1.26",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-python.autopep8",
+        "version": "2023.8.0",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-python.python",
+        "version": "2023.14.0",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-python.vscode-pylance",
+        "version": "2023.11.10",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-toolsai.jupyter",
+        "version": "2023.7.1002162226",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-toolsai.jupyter-keymap",
+        "version": "1.1.2",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-toolsai.jupyter-renderers",
+        "version": "1.0.17",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-vscode-remote.remote-ssh",
+        "version": "0.102.0",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-vscode-remote.remote-ssh-edit",
+        "version": "0.86.0",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-vscode-remote.remote-wsl",
+        "version": "0.81.8",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-vscode.azure-repos",
+        "version": "0.38.0",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-vscode.cpptools",
+        "version": "1.17.5",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-vscode.hexeditor",
+        "version": "1.9.12",
+        "enabled": true
+    },
+    {
+        "identifier": "ms-vscode.powershell",
+        "version": "2023.9.5",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-vscode.remote-explorer",
+        "version": "0.4.1",
+        "enabled": true
+    },
+    {
+        "identifier": "ms-vscode.remote-repositories",
+        "version": "0.40.0",
+        "enabled": false
+    },
+    {
+        "identifier": "ms-vscode.vscode-js-profile-flame",
+        "version": "1.0.7",
+        "enabled": false
+    },
+    {
+        "identifier": "natqe.reload",
+        "version": "0.0.6",
+        "enabled": false
+    },
+    {
+        "identifier": "rafaelsalguero.csharp2ts",
+        "version": "0.0.26",
+        "enabled": false
+    },
+    {
+        "identifier": "rangav.vscode-thunder-client",
+        "version": "2.15.0",
+        "enabled": false
+    },
+    {
+        "identifier": "redhat.java",
+        "version": "1.26.0",
+        "enabled": false
+    },
+    {
+        "identifier": "ritwickdey.LiveServer",
+        "version": "5.7.9",
+        "enabled": false
+    },
+    {
+        "identifier": "SanaAjani.taskrunnercode",
+        "version": "0.3.0",
+        "enabled": false
+    },
+    {
+        "identifier": "trybick.terminal-zoom",
+        "version": "1.7.2",
+        "enabled": true
+    },
+    {
+        "identifier": "vsce-toolroom.vscode-svg-previewer-toolroom",
+        "version": "0.8.0",
+        "enabled": false
+    }
+]

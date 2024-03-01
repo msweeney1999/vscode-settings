@@ -1,0 +1,797 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.emptyWindow": false,
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.enabled": false,
+  "debug.onTaskErrors": "showErrors",
+  "git.enableSmartCommit": true,
+  "[plaintext]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false
+  },
+  "editor.formatOnSave": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "bookmarks.experimental.enableNewStickyEngine": false,
+  "bookmarks.navigateThroughAllFiles": false,
+  "files.refactoring.autoSave": false,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontSize": 13,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  },
+  "workbench.colorCustomizations": {
+    "editor.findMatchBackground": "#ff000066", // for the currently selected match
+    "editor.stackFrameHighlightBackground": "#03305223", // current active debug line
+    "editorRuler.foreground": "#d2d2d244",
+    "editor.lineHighlightBorder": "#decdcd37",
+    "editor.lineHighlightBackground": "#2d2d2c",
+    "peekViewEditor.matchHighlightBackground": "#dddddd89",
+    "peekViewResult.matchHighlightBackground": "#dddddd89",
+    "editor.res": "#ff0000",
+    "editorSelection": "#eee",
+    "editor.selectionForeground": "#ff0000",
+    "editorSelectionHighlight": "#000020",
+    "terminal.foreground": "#4ed60a",
+    "terminal.background": "#000",
+    "editorHoverWidget.background": "#3f4439fe",
+    "aaaaaaaaaaaeditorHoverWidget.foreground": "#0f0e0ef9",
+    "[Default Dark+]": {
+      "editor.lineHighlightBackground": "#1a1919"
+    },
+    "[Default Light+]": {
+      "editor.lineHighlightBackground": "#ddd"
+    }
+  },
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "editor.minimap.maxColumn": 30,
+  "search.useIgnoreFiles": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.openEditors.sortOrder": "alphabetical",
+  "typescript.referencesCodeLens.enabled": true,
+  "settingsSync.ignoredSettings": [
+    "files.exclude"
+  ],
+  "search.exclude": {
+    "**/dist": true,
+    "**/out": true,
+    "**/types": true
+  },
+  "editor.minimap.enabled": false,
+  "files.exclude": {
+    "*.d.ts": true,
+    "**/.git": false
+  },
+  "workbench.startupEditor": "none",
+  "editor.mouseWheelZoom": true,
+  "BACKUP.vcobol.connections": [
+    {
+      "name": "rocky9",
+      "host": "wsl",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "/home/unikix",
+      "privateKeyPath": ""
+    },
+    {
+      "name": "rocky9-ssh",
+      "host": "rocky9",
+      "port": 22,
+      "username": "ms",
+      "initialDir": "",
+      "privateKeyPath": "C:\\Users\\ms\\.ssh\\id_ed25519"
+    },
+    {
+      "name": "Production",
+      "host": "rocky9",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "",
+      "privateKeyPath": ""
+    },
+    {
+      "name": "tophat",
+      "host": "raven.unikix.com",
+      "port": 22,
+      "username": "ms136136",
+      "initialDir": "/",
+      "privateKeyPath": "",
+      "timeout": 2000,
+      "projectFolders": [
+        {
+          "name": "ms136136",
+          "path": "/home/ms136136",
+          "buildCmd": "",
+          "compileCmd": "",
+          "bpesubCommands": "",
+          "debugPort": "9999",
+          "debugListenerPort": "",
+          "copybookFolders": "",
+          "outputFolder": "",
+          "sourceFolder": ""
+        }
+      ]
+    },
+    {
+      "name": "sdfg",
+      "host": "rocky9",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "",
+      "privateKeyPath": "",
+      "password": "*****",
+      "timeout": 2000
+    },
+    {
+      "name": "fffff",
+      "host": "rocky9",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "/",
+      "privateKeyPath": ""
+    },
+    {
+      "name": "ffffasf",
+      "host": "rocky9",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "/",
+      "privateKeyPath": ""
+    },
+    {
+      "name": "raven",
+      "host": "raven.unikix.com",
+      "port": 22,
+      "username": "ms136136",
+      "initialDir": "/home/ms136136",
+      "privateKeyPath": "",
+      "timeout": 2000,
+      "projectFolders": [
+        {
+          "name": "dev",
+          "path": "/home/ms136136/dev",
+          "buildCmd": "",
+          "compileCmd": "",
+          "bpesubCommands": "",
+          "debugPort": "9999",
+          "debugListenerPort": "",
+          "copybookFolders": "",
+          "outputFolder": "",
+          "sourceFolder": ""
+        },
+        {
+          "name": "Nested1",
+          "path": "/home/ms136136/dev/Nested1",
+          "buildCmd": "vcc -d -sp=cpy  -od=output source/*.cbl",
+          "compileCmd": "vcc -d -sp=cpy  -od=output {fullpath}\n",
+          "bpesubCommands": "",
+          "debugPort": "9999",
+          "debugListenerPort": "",
+          "copybookFolders": "",
+          "outputFolder": "",
+          "sourceFolder": ""
+        },
+        {
+          "name": "tmp",
+          "path": "/tmp",
+          "buildCmd": "",
+          "compileCmd": "",
+          "bpesubCommands": "",
+          "debugPort": "9999",
+          "debugListenerPort": "",
+          "copybookFolders": "",
+          "outputFolder": "",
+          "sourceFolder": ""
+        }
+      ]
+    },
+    {
+      "name": "centos7",
+      "host": "wsl",
+      "port": 8022,
+      "username": "unikix",
+      "initialDir": "/home/unikix",
+      "privateKeyPath": "",
+      "password": "unikix",
+      "timeout": 2000
+    }
+  ],
+  "keepthis.vcobol.connections": [
+    {
+      "name": "rocky9",
+      "host": "rocky9",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "/home/unikix",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "Primer",
+          "path": "/home/unikix/dev/Primer",
+          "buildCmd": ". /home/unikix/demo/acct16/sys/bin/userenv\nmake\ncd progs\ncp -v *.class $KIXPROGS",
+          "compileCmd": ". /home/unikix/demo/acct16/sys/bin/userenv\nvcprep -lo=progs -sp=/home/unikix/opt/unikix16/tpe/copy:cpy {fullpath}\ncd progs\nkixclt -lcl2 {BASENAME}.list\nvcc -d64 -ef -sc=sql -cv -dv=0 -dcmi -pt2 -align=8 -d -sp=$UNIKIX/copy:cpy {BASENAME}.cbl",
+          "bpesubCommands": "sdfgghfghgggggdsdsdasdfasdffgsdffffsdfgsdfsssssdfggggggggggddggy",
+          "debugPort": "9999",
+          "debugListenerPort": "9998",
+          "copybookFolders": "cpy",
+          "outputFolder": "progs",
+          "sourceFolder": "progs"
+        },
+        {
+          "name": "Nested1",
+          "path": "/home/unikix/dev/Nested1",
+          "buildCmd": "vcc -d -od=output source/*.cbl",
+          "compileCmd": "vcc -d -od=output source/{filename}",
+          "bpesubCommands": ".  /home/unikix/demo/node16/batchenv sub1\n\nBPESUB -Asub1 {basename}",
+          "debugPort": "9999",
+          "debugListenerPort": "",
+          "copybookFolders": "",
+          "outputFolder": "output",
+          "sourceFolder": "source"
+        },
+        {
+          "name": "SubscriptsTest",
+          "path": "/home/unikix/dev/SubscriptsTest/SubscriptsTest",
+          "buildCmd": "vcc -d -od=output -sp=cpy source/*.cbl",
+          "compileCmd": "",
+          "bpesubCommands": "",
+          "debugPort": "9999",
+          "debugListenerPort": "",
+          "copybookFolders": "",
+          "outputFolder": "output",
+          "sourceFolder": "source"
+        },
+        {
+          "name": "LotsOFiles",
+          "path": "/home/unikix/dev/LotsOFiles/LotsOFiles",
+          "buildCmd": "vcc -od=output -cod1 -pi -nc  -sp=cpy source/*.cbl",
+          "compileCmd": "vcc  -cod1 -pi -nc -od=output -sp=cpy {fullpath}",
+          "bpesubCommands": "",
+          "debugPort": "9999",
+          "debugListenerPort": "",
+          "copybookFolders": "",
+          "outputFolder": "output",
+          "sourceFolder": "source"
+        },
+        {
+          "name": "acct17",
+          "path": "/home/unikix/demo/acct17",
+          "buildCmd": ". /home/unikix/setenv\n./build_programs\n\ncp -fv progs/*.class $KIXPROGS",
+          "compileCmd": "",
+          "bpesubCommands": "",
+          "debugPort": "9999",
+          "debugListenerPort": "9998",
+          "copybookFolders": "",
+          "outputFolder": "progs",
+          "sourceFolder": "progs"
+        },
+        {
+          "name": "opt",
+          "path": "/home/unikix/opt"
+        },
+        {
+          "name": "transam",
+          "path": "/home/unikix/dev/transam_dev"
+        },
+        {
+          "name": "Desktop",
+          "path": "/home/unikix/Desktop"
+        },
+        {
+          "name": "tmp",
+          "path": "/tmp"
+        },
+        {
+          "name": "source",
+          "path": "/home/unikix/dev/SubscriptsTest/SubscriptsTest/source"
+        }
+      ]
+    },
+    {
+      "name": "rocky9-ssh",
+      "host": "rocky9",
+      "port": 22,
+      "username": "ms",
+      "initialDir": "/",
+      "privateKeyPath": "C:\\Users\\ms\\.ssh\\id_ed25519"
+    },
+    {
+      "name": "Production",
+      "host": "rocky9",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "/home/unikix",
+      "privateKeyPath": "",
+      "projectFolders": [],
+      "password": "unikix"
+    },
+    {
+      "name": "Demo",
+      "host": "rocky9",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "/",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "Primer",
+          "path": "/home/unikix/dev/Primer",
+          "buildCmd": ". /home/unikix/demo/acct16/sys/bin/userenv\nmake",
+          "compileCmd": "",
+          "bpesubCommands": "",
+          "debugPort": "9999",
+          "debugListenerPort": "",
+          "copybookFolders": "",
+          "outputFolder": "progs",
+          "sourceFolder": "progs"
+        },
+        {
+          "name": "Desktop",
+          "path": "/home/unikix/Desktop"
+        },
+        {
+          "name": "opt",
+          "path": "/home/unikix/opt"
+        }
+      ],
+      "password": "unikix"
+    },
+    {
+      "name": "mark",
+      "host": "rocky9",
+      "port": 22,
+      "username": "ms",
+      "initialDir": "/home/ms",
+      "privateKeyPath": "C:\\Users\\ms\\.ssh\\id_ed25519",
+      "privateKey": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBArGKjafOUHp+gcr9B1CTFFhYigsdU4oYaDwBUwgL5tQAAAJg9OPh3PTj4\ndwAAAAtzc2gtZWQyNTUxOQAAACBArGKjafOUHp+gcr9B1CTFFhYigsdU4oYaDwBUwgL5tQ\nAAAEAuXMo+sTLWlWxsf3c+ji0J8kFQoNDhuVFrXHQl/TA9Q0CsYqNp85Qen6Byv0HUJMUW\nFiKCx1TihhoPAFTCAvm1AAAAEm1zQERFU0tUT1AtOFZPRkM3NwECAw==\n-----END OPENSSH PRIVATE KEY-----\n"
+    },
+    {
+      "name": "testing",
+      "host": "rocky9",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "/home/unikix",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "Primer",
+          "path": "/home/unikix/dev/Primer"
+        },
+        {
+          "name": "demo",
+          "path": "/home/unikix/demo"
+        }
+      ],
+      "password": "unikix"
+    },
+    {
+      "name": "tophat",
+      "host": "tophat.unikix.com",
+      "port": 22,
+      "username": "ms136136",
+      "initialDir": "/home/ms136136",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "Nested1",
+          "path": "/home/ms136136/dev/Nested1"
+        }
+      ],
+      "password": "Welc0me"
+    },
+    {
+      "name": "raven",
+      "host": "raven.unikix.com",
+      "port": 22,
+      "username": "ms136136",
+      "initialDir": "/home/ms136136",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "Nested1",
+          "path": "/home/ms136136/dev/Nested1"
+        }
+      ]
+    }
+  ],
+  "vcobol.debugoptions": 3000,
+  "ponyssh.hosts": {
+    "rocky9": {
+      "host": "rocky9",
+      "username": "unikix",
+      "password": "unikix"
+    }
+  },
+  "remote.SSH.remotePlatform": {
+    "rocky9": "linux"
+  },
+  "sshfs.configs": [
+    {
+      "name": "rocky",
+      "host": "rocky9",
+      "root": "/home/unikix/dev",
+      "username": "unikix",
+      "password": "unikix"
+    }
+  ],
+  "npm.enableRunFromFolder": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+  "vcobol.connections": [
+    {
+      "name": "Dev Server",
+      "host": "rocky9",
+      "port": 22,
+      "username": "ms",
+      "initialDir": "/home/ms",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "Primer",
+          "path": "/home/ms/dev/Primer"
+        }
+      ]
+    },
+    {
+      "name": "UniKix",
+      "host": "rocky9",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "/home/unikix/dev",
+      "debuggerDelay": "5",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "MockData",
+          "path": "/home/unikix/dev/MockData"
+        },
+        {
+          "name": "BmsBug",
+          "path": "/home/unikix/dev/BmsBug"
+        },
+        {
+          "name": "TestBMS",
+          "path": "/home/unikix/dev/TestBMS"
+        },
+        {
+          "name": "transam_dev",
+          "path": "/home/unikix/dev/transam_dev"
+        }
+      ]
+    },
+    {
+      "name": "Azure",
+      "host": "20.228.234.127",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "/home/unikix",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "Nested1",
+          "path": "/home/unikix/dev/Nested1"
+        },
+        {
+          "name": "⭐acct17",
+          "path": "/home/unikix/demo/acct17"
+        },
+        {
+          "name": "SubscriptsTest",
+          "path": "/home/unikix/dev/SubscriptsTest/SubscriptsTest"
+        }
+      ]
+    },
+    {
+      "name": "Raven",
+      "host": "raven.unikix.com",
+      "port": 22,
+      "username": "ms136136",
+      "initialDir": "/home/ms136136",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "Nested1",
+          "path": "/home/ms136136/dev/Nested1"
+        }
+      ]
+    },
+    {
+      "name": "az-demo",
+      "host": "azure",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "/home/unikix/demo",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "acct17",
+          "path": "/home/unikix/demo/acct17"
+        }
+      ]
+    },
+    {
+      "name": "Centos7",
+      "host": "rocky9",
+      "port": 8022,
+      "username": "unikix",
+      "initialDir": "/home/unikix",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "SubscriptsTest",
+          "path": "/home/unikix/SubscriptsTest"
+        }
+      ]
+    },
+    {
+      "name": "aws",
+      "host": "localhost",
+      "port": 2222,
+      "username": "unikix",
+      "initialDir": "",
+      "privateKeyPath": "",
+      "projectFolders": []
+    },
+    {
+      "name": "aws-test",
+      "host": "i-03369b4eb47a76173",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "",
+      "privateKeyPath": "",
+      "password": "unikix",
+      "timeout": 2000
+    },
+    {
+      "name": "i-03369b4eb47a76173",
+      "host": "i-03369b4eb47a76173",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "",
+      "privateKeyPath": "",
+      "password": "unikix",
+      "timeout": 2000
+    },
+    {
+      "name": "rocky-test",
+      "host": "rocky-test",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "",
+      "privateKeyPath": ""
+    },
+    {
+      "name": "azure-aus",
+      "host": "20.213.245.87",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "",
+      "debuggerDelay": "10",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "SimpleProject",
+          "path": "/home/unikix/testing/SimpleProject"
+        }
+      ]
+    },
+    {
+      "name": "Mark",
+      "host": "rocky9",
+      "port": 22,
+      "username": "mark",
+      "initialDir": "/home/mark",
+      "debuggerDelay": "0",
+      "privateKeyPath": "",
+      "projectFolders": []
+    },
+    {
+      "name": "Program Manager",
+      "host": "rocky9",
+      "port": 22,
+      "username": "pm",
+      "initialDir": "/home/pm",
+      "debuggerDelay": "0",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "ACCT",
+          "path": "/home/pm/dev/ACCT"
+        }
+      ]
+    },
+    {
+      "name": "DEMO",
+      "host": "rocky9",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "/home/unikix/dev",
+      "debuggerDelay": "0",
+      "privateKeyPath": "",
+      "projectFolders": []
+    },
+    {
+      "name": "aws-2",
+      "host": "54.224.242.250",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "/home/unikix",
+      "debuggerDelay": "0",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "SubscriptsTest",
+          "path": "/home/unikix/SubscriptsTest/SubscriptsTest/SubscriptsTest"
+        },
+        {
+          "name": "batch",
+          "path": "/home/unikix/dev/transam_dev/src/batch"
+        }
+      ]
+    },
+    {
+      "name": "azure-2",
+      "host": "20.213.238.212",
+      "port": 22,
+      "username": "unikix",
+      "initialDir": "/home/unikix",
+      "debuggerDelay": "10",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "batch",
+          "path": "/home/unikix/dev/transam_dev/src/batch"
+        }
+      ]
+    }
+  ],
+  "task.quickOpen.showAll": false,
+  "explorer.autoReveal": false,
+  "files.trimTrailingWhitespace": true,
+  "vcobol.copybooks.copyBookFileExtensions": [
+    "cpy",
+    "copybook"
+  ],
+  "git.autoRepositoryDetection": false,
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.mode": "manual",
+  "editor.semanticTokenColorCustomizations": {},
+  "workbench.list.mouseWheelScrollSensitivity": 2,
+  "git.openRepositoryInParentFolders": "never",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.renderWhitespace": "all",
+  "conf.view.showOnWindowOpen": "extensions",
+  "conf.settingsEditor.boolObjectSetting": {
+    "prop2": true
+  },
+  "vcobol.editor.cobolFileExtensions": [
+    "cbl",
+    "cl2",
+    "clt",
+    "cob",
+    "pco",
+    "cab",
+    "list",
+    "xyz",
+    "aaaa",
+    "mark",
+    "**/jcl3/*"
+  ],
+  "vcobol.files.fileFormatStrategy": "fixed",
+  //"editor.wordBasedSuggestions": false,
+  "extensions.autoUpdate": false,
+  "vcobol.compiler65": true,
+  "vcobol.editor.logging": {
+    "filesystem": true
+  },
+  "remoteHub.gitProtocol": "ssh",
+  "remoteHub.richNavigation.indexMode": {},
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "azureRepos.logLevel": "error",
+  "vcobol.autocomplete_style": "uppercase",
+  "vcobol.logging": {
+    "SSH": false,
+    "debugger": true,
+    "tasks": false,
+    "debugListener": false,
+    "projectFolder": false,
+    "filesystem": false,
+    "language": false
+  },
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.avatars": false,
+  "gitlens.hovers.enabled": false,
+  "aws.suppressPrompts": {
+    "codeWhispererNewWelcomeMessage": true,
+    "codeWhispererConnectionExpired": true
+  },
+  "editor.wordBasedSuggestions": "off",
+  "code-for-ibmi.connections": [
+    {
+      "name": "ibmi",
+      "host": "rocky9",
+      "port": 22,
+      "username": "unikix"
+    }
+  ],
+  "code-for-ibmi.connectionSettings": [
+    {
+      "name": "ibmi",
+      "host": "",
+      "objectFilters": [],
+      "libraryList": [],
+      "autoClearTempData": false,
+      "customVariables": [],
+      "connectionProfiles": [],
+      "commandProfiles": [],
+      "ifsShortcuts": [
+        "/home/unikix"
+      ],
+      "autoSortIFSShortcuts": false,
+      "homeDirectory": "/home/unikix",
+      "enableSQL": false,
+      "tempLibrary": "ILEDITOR",
+      "tempDir": "/tmp",
+      "currentLibrary": "",
+      "sourceASP": "",
+      "sourceFileCCSID": "*FILE",
+      "autoConvertIFSccsid": false,
+      "hideCompileErrors": [],
+      "enableSourceDates": false,
+      "sourceDateMode": "diff",
+      "sourceDateGutter": false,
+      "encodingFor5250": "default",
+      "terminalFor5250": "default",
+      "setDeviceNameFor5250": false,
+      "connectringStringFor5250": "localhost",
+      "autoSaveBeforeAction": false,
+      "showDescInLibList": false,
+      "debugCertDirectory": "/QIBM/ProdData/IBMiDebugService/bin/certs",
+      "debugPort": "8005",
+      "debugIsSecure": false,
+      "debugUpdateProductionFiles": false,
+      "debugEnableDebugTracing": false,
+      "readOnlyMode": false,
+      "quickConnect": true
+    }
+  ],
+  "workbench.editor.enablePreview": false,
+  "explorer.confirmDelete": false,
+  "files.autoSave": "onFocusChange",
+  "gitlens.views.remotes.branches.layout": "list",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "redhat.telemetry.enabled": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "vcobol.exportFolder": "h:/tmp",
+  "vcobol.buildMode": 0,
+  "gitlens.views.branches.branches.layout": "list",
+  "vcobol.editor.autoLaunchBmsEditor": false,
+  "outline.collapseItems": "alwaysCollapse",
+  "window.zoomLevel": 2,
+  "settings-repository.repository": "https://github.com/msweeney1999/vscode-settings.git",
+  "files.associations": {
+    ".eslintrc*.json": "jsonc",
+    "**/jcl/jmvs/*": "vcobol",
+    "**/jcl/mvsp/*": "vcobol",
+    "**/jcl/*": "vcobol",
+    "**/cpy/*": "vcobol",
+    "*.cbl": "vcobol",
+    "*.cl2": "vcobol",
+    "*.clt": "vcobol",
+    "*.cob": "vcobol",
+    "*.pco": "vcobol",
+    "*.cab": "vcobol",
+    "*.list": "vcobol",
+    "*.xyz": "vcobol",
+    "*.aaaa": "vcobol",
+    "*.mark": "vcobol",
+    "*.**/jcl3/*": "vcobol"
+  }
+}
