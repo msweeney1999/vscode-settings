@@ -466,11 +466,11 @@
           "path": "/home/unikix/dev/SubscriptsTest/SubscriptsTest"
         },
         {
-          "name": "🌴 batch",
+          "name": "🌴 transam_batch",
           "path": "/home/unikix/dev/transam_dev/src/batch"
         },
         {
-          "name": "🌴 online",
+          "name": "🌴 transam_online",
           "path": "/home/unikix/dev/transam_dev/src/online"
         }
       ]
