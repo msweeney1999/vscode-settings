@@ -470,12 +470,36 @@
           "path": "/home/unikix/dev/Primer"
         },
         {
-          "name": "SimpleProject",
+          "name": "🍪 SimpleProject",
           "path": "/home/unikix/dev/SimpleProject"
         },
         {
           "name": "🥨 MockData",
           "path": "/home/unikix/dev/MockData/MockData"
+        },
+        {
+          "name": "🌴 transam_batch",
+          "path": "/home/unikix/dev/transam_dev/src/batch"
+        },
+        {
+          "name": "🐞 BmsBug",
+          "path": "/home/unikix/dev/BmsBug"
+        },
+        {
+          "name": "🥑 aws-mainframe-modernization-carddemo",
+          "path": "/home/unikix/dev/aws-mainframe-modernization-carddemo"
+        },
+        {
+          "name": "🍕 Nested1",
+          "path": "/home/unikix/dev/Nested1"
+        },
+        {
+          "name": "✈️ LotsOFiles",
+          "path": "/home/unikix/dev/LotsOFiles"
+        },
+        {
+          "name": "a",
+          "path": "/home/unikix/dev/a"
         }
       ]
     },
@@ -806,7 +830,7 @@
   "redhat.telemetry.enabled": false,
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "vcobol.exportFolder": "h:/tmp",
-  "vcobol.buildMode": 0,
+  "vcobol.buildMode": 1,
   "gitlens.views.branches.branches.layout": "list",
   "vcobol.editor.autoLaunchBmsEditor": false,
   "outline.collapseItems": "alwaysCollapse",
