@@ -446,14 +446,6 @@
       "privateKeyPath": "",
       "projectFolders": [
         {
-          "name": "🥨 MockData",
-          "path": "/home/unikix/dev/MockData"
-        },
-        {
-          "name": "🐞 BmsBug",
-          "path": "/home/unikix/dev/BmsBug"
-        },
-        {
           "name": "🥯 TestBMS",
           "path": "/home/unikix/dev/TestBMS"
         },
@@ -466,10 +458,6 @@
           "path": "/home/unikix/dev/SubscriptsTest/SubscriptsTest"
         },
         {
-          "name": "🌴 transam_batch",
-          "path": "/home/unikix/dev/transam_dev/src/batch"
-        },
-        {
           "name": "🌴 transam_online",
           "path": "/home/unikix/dev/transam_dev/src/online"
         },
@@ -480,6 +468,14 @@
         {
           "name": "🍸 Primer",
           "path": "/home/unikix/dev/Primer"
+        },
+        {
+          "name": "SimpleProject",
+          "path": "/home/unikix/dev/SimpleProject"
+        },
+        {
+          "name": "🥨 MockData",
+          "path": "/home/unikix/dev/MockData/MockData"
         }
       ]
     },
@@ -611,10 +607,6 @@
         {
           "name": "mrra_transam",
           "path": "/home/mark/dev/mrra2/mrra_transam"
-        },
-        {
-          "name": "🍺 BmsBug",
-          "path": "/home/unikix/dev/BmsBug"
         }
       ]
     },
@@ -668,12 +660,27 @@
       "port": 22,
       "username": "unikix",
       "initialDir": "/home/unikix",
-      "debuggerDelay": "10",
+      "debuggerDelay": "0",
       "privateKeyPath": "",
       "projectFolders": [
         {
           "name": "batch",
           "path": "/home/unikix/dev/transam_dev/src/batch"
+        }
+      ]
+    },
+    {
+      "name": "test proxy",
+      "host": "localhost",
+      "port": 8888,
+      "username": "unikix",
+      "initialDir": "",
+      "debuggerDelay": "55",
+      "privateKeyPath": "",
+      "projectFolders": [
+        {
+          "name": "SimpleProject",
+          "path": "/home/unikix/dev/SimpleProject"
         }
       ]
     }
